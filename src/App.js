@@ -1,4 +1,5 @@
 import './App.scss';
+import GameComponent from "./web/component/GameComponent";
 
 function App() {
   return (
@@ -9,6 +10,10 @@ function App() {
           </div>
           <div>
               <p className="text-center">still nothing there, we are building stuff!</p>
+          </div>
+
+          <div>
+              <GameComponent numberOfPlayers={2} gameWidth={500} gameHeight={500}/>
           </div>
       </header>
     </div>
