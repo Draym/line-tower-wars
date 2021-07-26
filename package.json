@@ -1,5 +1,11 @@
 {
   "name": "line-tower-wars",
+  "homepage": "https://draym.github.io/line-tower-wars/",
+  "description": "LineTowerWars game",
+  "author": {
+    "name": "Kevin Andres",
+    "email": "kevin.andres@epitech.eu"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
