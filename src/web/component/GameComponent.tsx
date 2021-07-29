@@ -14,8 +14,8 @@ type GameState = {
 
 export default class GameComponent extends Component<GameProperties, GameState> {
 
-    componentWillMount() {
-        //init state
+    constructor(props: GameProperties) {
+        super(props);
     }
 
     componentDidMount() {
@@ -28,10 +28,6 @@ export default class GameComponent extends Component<GameProperties, GameState> 
         }
 
         new Game(config)
-    }
-
-    shouldComponentUpdate() {
-        return false
     }
 
     // render will know everything!
